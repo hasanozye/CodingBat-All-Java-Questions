@@ -9,14 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class StartHi {
 
     public static boolean startHi(String str) {
-        boolean flag = false;
 
-        if (str.length() >= 2 && str.substring(0, 2).equals("hi")) {
-
-            flag = true;
-
-        }
-        return flag;
+        return str.startsWith("hi");
     }
 
 
